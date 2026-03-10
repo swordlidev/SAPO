@@ -5,12 +5,12 @@ data_name="nq_hotpotqa_train_sapo"
 export DATA_DIR="data/${data_name}"
 
 wandb_token=""                                                                            
-WAND_PROJECT="AutoRefine-ijcai"     
+WAND_PROJECT="sapo"     
 #export WANDB_MODE="disabled"
 export WANDB_API_KEY=$wandb_token
 export VLLM_ATTENTION_BACKEND=XFORMERS
 
-export BASE_MODEL='/apdcephfs_sh9/share_302498651/hunyuan/swordli/checkpoints/Qwen2.5-3B-Instruct'
+export BASE_MODEL='./checkpoints/Qwen2.5-3B-Instruct'
 export EXPERIMENT_NAME="$data_name-autorefine-qwen2.5-3b-instruct_logrkl_r1.2_w0.2_A0_rollout10_epoch420"
 
 mkdir -p log/
