@@ -1,11 +1,11 @@
 
 export CUDA_VISIBLE_DEVICES="0,1,2,3,4,5,6,7"
 num_gpus=8
-data_name="nq_hotpotqa_train_autorefine_v0"
+data_name="nq_hotpotqa_train_sapo"
 export DATA_DIR="data/${data_name}"
 
 wandb_token=""                                                                            
-WAND_PROJECT="AutoRefine-ijcai"     
+WAND_PROJECT="sapo"     
 #export WANDB_MODE="disabled"
 export WANDB_API_KEY=$wandb_token
 export VLLM_ATTENTION_BACKEND=XFORMERS
