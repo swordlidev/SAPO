@@ -4,7 +4,7 @@
 
 ## News
 
-- Paper: [arXiv]()
+- Paper: [PDF](Figs/SAPO_nju.pdf)
 - Checkpoints: [Hugging Face](https://huggingface.co/collections/swordli/sapo)
 
 ## Table of Contents
