@@ -149,10 +149,4 @@ Built upon [VeRL](https://github.com/volcengine/verl), [Search-R1](https://githu
 
 
 
-@article{li2025survey,
-  title={A Survey on AI Search with Large Language Models},
-  author={Li, Jian and Li, Xiaoxi and Zheng, Yan and Jin, Yizhang and Wang, Shuo and Wu, Jiafu and Wang, Yabiao and Wang, Chengjie and Yuan, Xiaotong},
-  year={2025}
-}
 
-```
