@@ -4,7 +4,6 @@
 
 ## News
 
-- Paper: [Arxiv](https://arxiv.org/abs/2603.10069)
 - Checkpoints: [Hugging Face](https://huggingface.co/collections/swordli/sapo)
 
 ## Table of Contents
@@ -148,27 +147,7 @@ bash cmd/eval.sh
 
 Built upon [VeRL](https://github.com/volcengine/verl), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), and [AutoRefine](https://github.com/syr-cn/AutoRefine). Thanks to the authors for their valuable work.
 
-## Citations
 
-```latex
-@misc{li2026improvingsearchagentline,
-      title={Improving Search Agent with One Line of Code}, 
-      author={Jian Li and Dongsheng Chen and Zhenhua Xu and Yizhang Jin and Jiafu Wu and Chengjie Wang and Xiaotong Yuan and Yabiao Wang},
-      year={2026},
-      eprint={2603.10069},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2603.10069}, 
-}
-@misc{li2026sesearch,
-      title={SE-Search: Self-Evolving Search Agent via Memory and Dense Reward}, 
-      author={Jian Li and Yizhang Jin and Dongqi Liu and Hang Ding and Jiafu Wu and Dongsheng Chen and Yunhang Shen and Yulei Qin and Ying Tai and Chengjie Wang and Xiaotong Yuan and Yabiao Wang},
-      year={2026},
-      eprint={2603.03293},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2603.03293}, 
-}
 
 @article{li2025survey,
   title={A Survey on AI Search with Large Language Models},
